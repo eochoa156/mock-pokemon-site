@@ -1,11 +1,16 @@
-import Search from "./Search"
-
+import { Box } from "@mui/material";
+import SearchForm from "./SearchForm";
 
 function Home() {
     return (
         <div>
-        <h1>Home</h1>
-        <Search />
+            <Box
+                align="center"
+            >
+                <h1>Home</h1>
+                <SearchForm />
+            </Box>
+        
         </div>
     )
 }
