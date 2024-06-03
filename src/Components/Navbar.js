@@ -43,15 +43,15 @@ function Navbar() {
                             'aria-labelledby': 'basic-button',
                         }}
                     >
-                        <MenuItem component={RouterLink} to="/gen1" onClick={handleClose}>Gen 1</MenuItem>
-                        <MenuItem component={RouterLink} to="/gen2" onClick={handleClose}>Gen 2</MenuItem>
-                        <MenuItem component={RouterLink} to="/gen3" onClick={handleClose}>Gen 3</MenuItem>
-                        <MenuItem component={RouterLink} to="/gen4" onClick={handleClose}>Gen 4</MenuItem>
-                        <MenuItem component={RouterLink} to="/gen5" onClick={handleClose}>Gen 5</MenuItem>
-                        <MenuItem component={RouterLink} to="/gen6" onClick={handleClose}>Gen 6</MenuItem>
-                        <MenuItem component={RouterLink} to="/gen7" onClick={handleClose}>Gen 7</MenuItem>
-                        <MenuItem component={RouterLink} to="/gen8" onClick={handleClose}>Gen 8</MenuItem>
-                        <MenuItem component={RouterLink} to="/gen9" onClick={handleClose}>Gen 9</MenuItem>
+                        <MenuItem component={RouterLink} to="/gen/gen1" onClick={handleClose}>Gen 1</MenuItem>
+                        <MenuItem component={RouterLink} to="/gen/gen2" onClick={handleClose}>Gen 2</MenuItem>
+                        <MenuItem component={RouterLink} to="/gen/gen3" onClick={handleClose}>Gen 3</MenuItem>
+                        <MenuItem component={RouterLink} to="/gen/gen4" onClick={handleClose}>Gen 4</MenuItem>
+                        <MenuItem component={RouterLink} to="/gen/gen5" onClick={handleClose}>Gen 5</MenuItem>
+                        <MenuItem component={RouterLink} to="/gen/gen6" onClick={handleClose}>Gen 6</MenuItem>
+                        <MenuItem component={RouterLink} to="/gen/gen7" onClick={handleClose}>Gen 7</MenuItem>
+                        <MenuItem component={RouterLink} to="/gen/gen8" onClick={handleClose}>Gen 8</MenuItem>
+                        <MenuItem component={RouterLink} to="/gen/gen9" onClick={handleClose}>Gen 9</MenuItem>
                     </Menu>
                     <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
                         LOGO
